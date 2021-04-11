@@ -1,12 +1,20 @@
 <template>
     <header>
-        <h1>WRI Task Tracker</h1>
+        <h1>{{ title }}</h1>
     </header>
 </template>
 
 <script>
 export default {
-    name: 'Header'
+    name: 'Header',
+    // props: ['title']
+    props: {
+        title: {
+            type: String,
+            // Use this value if the props value for title does not exist
+            default: "Testing"
+        }
+    }
 }
 </script>
 

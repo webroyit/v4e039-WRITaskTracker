@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <Header />
+    <Header title="WRI Task Tracker" />
   </div>
 </template>
 
