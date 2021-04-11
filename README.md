@@ -9,3 +9,4 @@
     "vue": "html"
 }
 ```
+- `scoped` means that the style only apply to this component

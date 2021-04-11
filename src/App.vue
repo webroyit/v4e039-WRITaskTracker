@@ -1,17 +1,34 @@
 <template>
-  <h1>WRI Task Tracker</h1>
+  <div class="container">
+    <Header />
+  </div>
 </template>
 
 <script>
+import Header from './components/Header';
 
 export default {
   name: 'App',
   components: {
-    
+    Header
   }
 }
 </script>
 
 <style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+  border: 1px solid steelblue;
+  padding: 30px;
+  border-radius: 5px;
+}
 </style>
