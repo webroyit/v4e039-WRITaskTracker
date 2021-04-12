@@ -11,6 +11,35 @@ export default {
   name: 'App',
   components: {
     Header
+  },
+  data() {
+    return {
+      tasks: []
+    }
+  },
+  // This is a life cycle method
+  // Commonly use for making http requests or load data
+  created() {
+    this.tasks = [
+      {
+        id: 1,
+        text: 'Water the plant',
+        day: 'April 12 at 1:00pm',
+        reminder: true
+      },
+      {
+        id: 2,
+        text: 'Feed the Fish',
+        day: 'April 12 at 3:00pm',
+        reminder: true
+      },
+      {
+        id: 3,
+        text: 'Watch tv',
+        day: 'April 12 at 6:00pm',
+        reminder: false
+      },
+    ]
   }
 }
 </script>
