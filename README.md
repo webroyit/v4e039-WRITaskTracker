@@ -11,3 +11,4 @@
 ```
 - `scoped` means that the style only apply to this component
 - `created()` is a life cycle method that is called synchronously after the instance is created
+-  `@dblclick` for double click handler
