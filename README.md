@@ -14,3 +14,4 @@
 -  `@dblclick` for double click handler
 - Window `confirm()` displays a dialog box to have the user verify or accept something
 - `v-show` to show the element if the value if true
+- `npm i vue-router@next` @next get the lastest version
