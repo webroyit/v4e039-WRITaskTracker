@@ -1,4 +1,11 @@
 # WRI Task Tracker
+Using Vue3 CLI. Task Tracker. The template is from Traversy Media youtube channel.
+
+## Tools
+- Vue 3
+- css3
+- vue-router
+- json-server
 
 ## Notes
 - To enable emmet, do `ctrl + shift + p` and click on `setting.json`. Add the following code to `setting.json`:
